@@ -7,7 +7,7 @@ JNIEXPORT void JNICALL Java_Sridhar_printx (JNIEnv *env, jobject obj) {
 	printf(".c :: Java_Sridhar_print() :: begin\n");
 	struct timeval te; 
 	gettimeofday(&te, NULL); // get current time
-	long long milliseconds = te.tv_sec*1000LL + te.tv_usec/1000; // caculate milliseconds
+	long milliseconds = te.tv_sec*1000LL + te.tv_usec/1000; // caculate milliseconds
 	printf(".c :: Java_Sridhar_print() :: current time is %lld milliseconds\n", milliseconds);
 }
 
