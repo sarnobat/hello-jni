@@ -9,10 +9,10 @@ extern "C" {
 #endif
 /*
  * Class:     Sridhar
- * Method:    print
+ * Method:    printx
  * Signature: ()V
  */
-JNIEXPORT void JNICALL Java_Sridhar_print
+JNIEXPORT void JNICALL Java_Sridhar_printx
   (JNIEnv *, jobject);
 
 #ifdef __cplusplus

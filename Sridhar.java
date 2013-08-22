@@ -1,6 +1,6 @@
 public class Sridhar
 {
-    public native void print();
+    public native void printx();
 
     static {
 	System.out.println(".java :: static :: Loading shared library");
@@ -12,6 +12,6 @@ public class Sridhar
 	Sridhar hw = new Sridhar();
 	System.out.println(".java :: main() :: About to call native print() method");
 	System.out.println();
-	hw.print();
+	hw.printx();
     }
 }
