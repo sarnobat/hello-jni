@@ -4,7 +4,7 @@ public class HelloWorld
 
     static {
 	System.out.println("Loading shared lib");
-        System.loadLibrary("HelloWorld");
+        System.loadLibrary("HelloWoRLd"); // not case sensitive?
     }
 
     public static void main(String[] args) {
