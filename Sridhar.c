@@ -2,6 +2,7 @@
 #include <jni.h>
 #include <stdio.h>
 #include <sys/time.h>
+//#include  <signal.h>
 
 JNIEXPORT void JNICALL Java_Sridhar_printx (JNIEnv *env, jobject obj) {
 	// Simple print statement
@@ -12,5 +13,6 @@ JNIEXPORT void JNICALL Java_Sridhar_printx (JNIEnv *env, jobject obj) {
 	gettimeofday(&te, NULL); // get current time
 	long long milliseconds = te.tv_sec*1000LL + te.tv_usec/1000; // caculate milliseconds
 	printf(".c :: Java_Sridhar_print() :: current time is %lld milliseconds\n", milliseconds);
+	//raise(SIGUSR1); 
 }
 
