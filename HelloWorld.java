@@ -3,7 +3,7 @@ public class HelloWorld
     public native void print();
 
     static {
-	System.out.println("Helloworld.java::static - Loading shared library 'helloworld'");
+	System.out.println("Helloworld.java :: static :: Loading shared library 'helloworld'");
         System.loadLibrary("helloWoRLd"); // not case sensitive
     }
 
