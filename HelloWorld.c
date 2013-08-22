@@ -3,6 +3,6 @@
 #include <stdio.h>
 
 JNIEXPORT void JNICALL Java_HelloWorld_print (JNIEnv *env, jobject obj) {
-  printf("Hello from JNI library!\n");
+  printf("Helloworld.c::Java_HelloWorld_print() - begin\n");
 }
 
